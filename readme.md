@@ -1,4 +1,4 @@
-# Hacking Homeless
+# Hacking Homelessness
 
 This is a submission project for [Hacking Homelessness]([https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/](https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/)). The submssion is made under the category: **Contributing for a change**. Currently the mobile app and web UI interface focuses to provide with the following features:
 
