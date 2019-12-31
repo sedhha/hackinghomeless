@@ -1,0 +1,50 @@
+Setting up firebase:
+
+Use this:
+
+classpath 'com.google.gms:google-services:4.2.0'
+
+instead of 4.3.2
+
+Add these packages:
+animated_text_kit: ^1.3.1
+firebase_core: ^0.4.2+1
+firebase_auth: ^0.15.1
+cloud_firestore: ^0.12.11
+mlkit: ^0.15.0
+image_picker: ^0.6.2+1
+firebase_analytics: ^5.0.6
+modal_progress_hud: ^0.1.3
+flutter_camera_ml_vision: ^2.2.4
+firebase_storage: ^3.0.8
+provider: ^3.1.0+1
+http: ^0.12.0+2
+mime: ^0.9.6+3
+toast: ^0.1.5
+
+Add this snippet to build.gradle below dependencies:
+
+subprojects {
+        project.configurations.all {
+            resolutionStrategy.eachDependency { details ->
+                if (details.requested.group == 'com.android.support'
+                        && !details.requested.name.contains('multidex') ) {
+                    details.useVersion "27.1.1"
+                }
+                if (details.requested.group == 'androidx.core'
+                        && !details.requested.name.contains('androidx') ) {
+                    details.useVersion "1.0.1"
+                }
+            }
+        }
+    }
+Change dependenicie in buil.gradle (outside app wala build.gradle)
+classpath 'com.android.tools.build:gradle:3.3.1'
+note that initially its 3.2.1
+
+change kotlin version to 1.3.0 from 1.2.71 or something else
+
+goto gradle.properties and paste this snippet of code:
+android.useAndroidX = true
+android.enableJetifier = true
+goto build.gradle (bina app wala) and set minsdkVersion to 21
