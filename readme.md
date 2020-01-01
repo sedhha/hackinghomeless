@@ -1,6 +1,6 @@
 # Hacking Homelessness
 
-This is a submission project for [Hacking Homelessness]([https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/](https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/)). The submssion is made under the category: **Contributing for a change**. Currently the mobile app and web UI interface focuses to provide with the following features:
+This is a submission project for ([https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/](https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/))[Hacking Homelessness]. The submssion is made under the category: **Contributing for a change**. Currently the mobile app and web UI interface focuses to provide with the following features:
 
  - **Contribute User Option**: Allows any user to make a donation or come up with the ideas to improve this system.This is the idealogy behind the creation of a better community and making it accessible for citizens (which are the general app users) to contribute in terms of donations and ideas.
  - **NGOs Available**: This option allows to check for nearby NGOs and their campaigns regarding clothes distribution, shelter provisions etc. With the help of this a message can be added to these NGOs regarding homeless people around. This method will be effective in listing such organizations and spreading awareness among the general public and homeless people about the work of these organizations
