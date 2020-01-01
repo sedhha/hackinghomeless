@@ -1,5 +1,7 @@
 # Hacking Homelessness
 
+![](presentation_files/Homeless_sample_image/2.jpg)
+
 This is a submission project for [Hacking Homelessness](https://www.hackerearth.com/challenges/hackathon/hacking-homelessness/). The submssion is made under the category: **Contributing for a change**. Currently the mobile app and web UI interface focuses to provide with the following features:
 
  - **Contribute User Option**: Allows any user to make a donation or come up with the ideas to improve this system.This is the idealogy behind the creation of a better community and making it accessible for citizens (which are the general app users) to contribute in terms of donations and ideas.
