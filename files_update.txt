@@ -1,0 +1,3 @@
+contribution: Add exception check cases null characters etc.
+idea and event submit notification
+spinner in camera and its upload

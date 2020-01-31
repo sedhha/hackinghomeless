@@ -1,5 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:animated_text_kit/animated_text_kit.dart';
+String RegisterAppBarText="Register for Betterment!";
+double RegisterAppBarFontSize=20.0;
+Color RegisterAppBarFontColor=Colors.black;
+String RegistrationNameHint="Full Name";
+IconData RegisterAppBarIcon=Icons.exit_to_app;
+TextStyle RegistrationTextStyle=TextStyle(
+  color: Colors.black,
+  backgroundColor: Colors.white,
+  fontSize: 16,
+  fontStyle: FontStyle.italic,
+);
 RoundedRectangleBorder roundedrectangle=RoundedRectangleBorder(
     borderRadius: BorderRadius.circular(30.0));
 Color Background_Color=Color(0xFFC4C4C4);
@@ -65,4 +76,27 @@ class LoginButtonTypes extends StatelessWidget {
     );
   }
 }
+double sizen=60;
+  Widget RowWntry = Row(
+    children: <Widget>[
+      SizedBox(width: 20,),
+      Text('Name:- '),
+      TextFormField(
+        obscureText: false,
+        style: RegistrationTextStyle,
+        decoration: InputDecoration(
+          border: InputBorder.none,
+          contentPadding: EdgeInsets.only(
+              left: 20, bottom: 20, top: 20, right: 20),
+          hintText: RegistrationNameHint,
+          hintStyle: RegistrationTextStyle.copyWith(
+            color: Colors.black38,
+          ),),
+        cursorColor: Colors.black,
+        onChanged: null,
+
+      ),
+    ],
+  );
 Color AppBarButtonColor=Color(0xFF747474);
+
