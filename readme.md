@@ -14,3 +14,6 @@ This is a submission project for [Hacking Homelessness](https://www.hackerearth.
 
 ## Architecture Description
 The mobile application has been created using Flutter framework that enables cross platform development and hence allowing the same piece of code to be used for android, ios as well as web development. For the server end, JS is used to facilitate https requests and data exchange.
+
+## Important note:
+Kindly note that google-services.json file has been intentionally removed due to privacy purposes. and you need to generate your own json file and create firebase project to achieve firebase data storage. Although Apk is available for plug and play as you install it in your android phone it will work accordingly.
